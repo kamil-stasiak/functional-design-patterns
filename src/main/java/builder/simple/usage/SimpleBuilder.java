@@ -1,8 +1,8 @@
-package builder.dumb.usage;
+package builder.simple.usage;
 
-import builder.dumb.Mail;
+import builder.simple.Mail;
 
-public class DumbBuilder {
+public class SimpleBuilder {
     public static void main(String[] args) {
         Mail importantMail = Mail.builder()
                 .to("person1@mail.com")

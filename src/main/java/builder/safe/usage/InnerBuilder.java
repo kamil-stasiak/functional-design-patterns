@@ -11,6 +11,8 @@ public class InnerBuilder {
         System.out.println(importantEmail);
 
 //        It is not possible to call builder outside the lambda
+//        or assign builder to variable.
+//        PrivateMail.PrivateMailBuilder() builder = ??? // how?
 //        new PrivateMail.PrivateMailBuilder() // compilation error
 //        PrivateMail.PrivateMailBuilder() // compilation error
 //        We could use any kind of builder in lambda - simple, fluent, etc...

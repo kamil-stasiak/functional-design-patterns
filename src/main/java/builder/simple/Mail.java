@@ -1,4 +1,4 @@
-package builder.dumb;
+package builder.simple;
 
 import lombok.*;
 
